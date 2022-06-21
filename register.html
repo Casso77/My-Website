@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chimgozirim Prince Ejim Portfolio</title>
+        <meta name="description" content="A Zuri Frontend Development Training portfolio project by Chimgozirim Prince Ejim">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+    <!-- The Navigation bar--> 
+    <header>
+        <a href="/index.html">
+            <img src="images/CE logo-black.png" class="logo" alt="Site logo">
+        </a>
+
+        <nav>
+            <ul class="nav-list">
+                <li class="login"><a href="/login.html">Login</a></li>
+                <li class="register"><a href="/register.html">Register</a></li>
+                <li class="contact"><a href="/contact.html">Contact</a></li>
+                
+            </ul>
+        </nav>
+
+    </header>
+
+    <h1>Contact Me</h1>
+    <h3>Please complete the form below and I will do well to get back to you.</h3>
+
+    <!-- creating a form -->
+    <form action="/index.html">
+        <!-- The fieldset tag creates a container for all form content-->
+        <fieldset> 
+            <!--the legend tag adds the title to the container-->
+            <legend>Personal Details</legend>
+
+            <!-- Label and Input Field-->
+            
+            <p> 
+                <label> First Name <input name="firstname"></label>
+            </p>
+            <p>
+                <label> Last Name <input name="lastname"></label>
+            </p>
+
+            <!-- Label and radio button field how to upload to github from vscode -->
+            <p> Gender
+                <label><input type="radio" name="gender" value="male">Male</label>
+                <label><input type="radio" name="gender" value="female">Female</label>
+            </p>
+
+            <p><label>Email <input type="email" name="email"></label></p>
+            <p><label>Date of Birth <input type="date" name="birthDate"></label></p>
+
+            <!--Label and text area field-->
+            <p>
+                <label>Address <br>
+                    <textarea name="address" cols="30" rows="2"></textarea>
+                </label>
+            </p>
+            <p>
+                <label>Enter Message <br>
+                    <textarea name="message" cols="30" rows="5"></textarea>
+                </label>
+            </p>
+            
+            <!-- Creating a Button -->
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+    
+
+    
+
+    
+
+    
+</body>
+</html>

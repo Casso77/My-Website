@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chimgozirim Prince Ejim Portfolio</title>
+        <meta name="description" content="A Zuri Frontend Development Training portfolio project by Chimgozirim Prince Ejim">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <!-- The Navigation bar--> 
+    <header>
+        <a href="/index.html">
+            <img src="images/CE logo-black.png" class="logo" alt="Site logo">
+        </a>
+
+        <nav>
+            <ul class="nav-list">
+                <li class="login"><a href="/login.html">Login</a></li>
+                <li class="register"><a href="/register.html">Register</a></li>
+                <li class="contact"><a href="/contact.html">Contact</a></li>
+                
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="form">
+        <h1>Contact Me</h1>
+        <!-- <h3>Please complete the form below and I will do well to get back to you.</h3> -->
+    
+        <!-- creating a form -->
+        <form action="/index.html">
+            <!-- The fieldset tag creates a container for all form content-->
+            <fieldset> 
+                <!--the legend tag adds the title to the container-->
+                <legend>Please complete the form below and I will do well to get back to you</legend>
+    
+                <!-- Label and Input Field-->
+                
+                <p> 
+                    <label class="fname"> First Name <input name="firstname"></label>
+                </p>
+
+                <p>
+                    <label class="lname"> Last Name <input name="lastname"></label>
+                </p>
+    
+                <p>
+                    <label class="email">Email Address </address><input type="email" name="email"></label>
+                </p>
+                
+                <!--Text area field-->
+               
+                <p>
+                    <label>Enter Message <br>
+                        <textarea name="message" cols="30" rows="5"></textarea>
+                    </label>
+                </p>
+                
+                <!-- Creating a Button -->
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </section>
+
+   
+    
+    
+</body>
+</html>
